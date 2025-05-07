@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace MVCApps.Models
+{
+    public class InsertModel
+    {
+        public String Name { get; set; }
+        public String City { get; set; }
+        public String State { get; set; }
+        public int Fees { get; set; }
+        public DateTime JoiningDate { get; set; }
+    }
+}
